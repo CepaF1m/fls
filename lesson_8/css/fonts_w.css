@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bad+Script:regular&display=swap");
+@font-face {
+	font-family: "Engine";
+	src: url("../fonts/Engine-Regular.woff2") format("woff2"), url("../fonts/Engine-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lionelofparis";
+	src: url("../fonts/Lionelofparis.woff2") format("woff2"), url("../fonts/Lionelofparis.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Shnobel";
+	src: url("../fonts/Shnobeloblique.woff2") format("woff2"), url("../fonts/Shnobeloblique.woff") format("woff");
+	font-weight: 400;
+	font-style: oblique;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "YouMurdererBB";
+	src: url("../fonts/YouMurdererBB.woff2") format("woff2"), url("../fonts/YouMurdererBB.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+font-family: "beermoney";
+src: url("../fonts/beermoney.woff2") format("woff2"), url("../fonts/beermoney.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}

@@ -1,0 +1,291 @@
+@import "fonts_w.css";
+@import "null_w.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1700px;
+	margin: 0 auto;
+}
+
+/* ================================================================ */
+body {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(139, 190, 123, 0) 48%, rgba(0, 0, 0, 1) 100%),
+		#000 url("../img/joker/patt.png");
+}
+
+.header-logo {
+	max-width: 1550px;
+	margin: 0 auto 100px;
+	box-shadow: 0 0 40px 60px #000;
+	border-radius: 30px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(139, 190, 123, 0) 48%, rgba(0, 0, 0, 1) 100%),
+		url("../img/joker/f_1.jpg") 0px 0 / 350px no-repeat,
+		linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(139, 190, 123, 0) 48%, rgba(0, 0, 0, 1) 100%),
+		url("../img/joker/l_3.jpg") 1150px 50px / 500px no-repeat;
+}
+.logo {
+	background-color: #000;
+	display: block;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.years li {
+	display: inline-block;
+}
+.years:first-child {
+	margin: 0px 0px 0px 10px;
+}
+.years a {
+	font-family: "Shadows Into Light", serif;
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	color: #fff;
+	border-radius: 30px;
+}
+.years a:hover {
+	text-decoration: underline;
+	border: 3px solid #000;
+	background: radial-gradient(circle, rgba(5, 131, 45, 1) 20%, rgba(62, 5, 136, 1) 98%);
+	box-shadow: inset 0 0 7px 1px #000, 0 0 20px 2px #e32636, 0 0 10px 20px #000;
+	padding: 5px 20px;
+}
+.years a:active {
+	color: transparent;
+	border: none;
+	background: none;
+	box-shadow: none;
+	background: url("../img/joker/004.png") -25px -35px / 150px 150px no-repeat;
+} 
+.years ul {
+	margin: 0px 0px 50px 0px;
+}
+
+.years-items {
+	margin: 0px 90px;
+}
+.years-items:hover {
+	margin: 0px 67px;
+
+}
+.years-img {
+	max-width: 1650px;
+	margin: 0 auto 35px;
+}
+.year-img {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+.year-img:not(:last-child) {
+	margin: 0px 20px 0px 0px;
+}
+
+.year-img:hover {
+	box-shadow: 0px 0px 10px 10px rgba(62, 5, 136, 0.5);
+}
+
+._1928 {
+	border-radius: 32% 68% 62% 38% / 73% 62% 38% 27%;
+	background: url("../img/gif/1928.png") 0 0 / 250px 250px no-repeat;
+}
+._1928:hover {
+	background: url("../img/gif/1928_g.gif") 0 0 / 250px 250px no-repeat;
+}
+
+._1966 {
+	border-radius: 78% 22% 62% 38% / 40% 75% 25% 60%;
+	background: url("../img/gif/1966.png") -90px 0 / cover no-repeat;
+}
+._1966:hover {
+	background: url("../img/gif/1966_g.gif") -90px 0 / cover no-repeat;
+}
+._1989 {
+	border-radius: 20% 80% 88% 12% / 40% 42% 58% 60%;
+	background: url("../img/gif/1989.jpg") -130px 0 / cover no-repeat;
+}
+._1989:hover {
+	background: url("../img/gif/1989_g.gif") -130px 0 / cover no-repeat;
+}
+._2008 {
+	border-radius: 43% 57% 43% 57% / 76% 20% 80% 24%;
+	background: url("../img/gif/2008.png") -175px 0px / cover no-repeat;
+}
+._2008:hover {
+	background: url("../img/gif/2008_g.gif") -175px 0px / cover no-repeat;
+}
+._2016 {
+	border-radius: 9% 91% 4% 96% / 47% 44% 56% 53%;
+	background: url("../img/gif/2016.png") -150px 0px / cover no-repeat;
+}
+._2016:hover {
+	background: url("../img/gif/2016_g.gif") -150px 0px / cover no-repeat;
+}
+._2019 {
+	border-radius: 44% 56% 30% 70% / 82% 18% 82% 18%;
+	background: url("../img/gif/2019.png") 0px 0px / cover no-repeat;
+}
+._2019:hover {
+	background: url("../img/gif/2019_g.gif") 0px 0px / cover no-repeat;
+}
+/*------------------------------ M A I N -----------------------------------*/
+.main-body {
+	max-width: 1550px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50px;
+	box-shadow: 0 0 20px 20px #000;
+}
+p {
+	margin: 0px 0px 5px 0px;
+}
+
+.main-body p:hover { 
+	background: url('../img/joker/0101.png') center 0 / contain no-repeat;
+}
+
+.main-body p:hover,
+.main-body p:hover:last-child:first-letter, 
+.main-body p:hover:first-letter { 
+	color: transparent;
+} 
+
+.main-body p {
+	font-family: "Lionelofparis", arial;
+	font-size: 22px;
+	text-indent: 40px;
+	line-height: 1.5;
+	opacity: 0.7;
+	padding: 0 10px;
+}
+.main-body p:first-letter {
+	font-size: 40px;
+	font-weight: 700;
+	color: #008000;
+}
+.main-body p:last-child:first-letter {
+	color: #00ffff;
+}
+.main-body p:nth-child(2n + 2) {
+	font-family: "Shnobel", arial;
+	font-size: 22px;
+}
+.main-body * p:last-child {
+	margin: 0px 0px 60px 0px;
+}
+.main-body img {
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto 25px;
+}
+.main-body h1,
+h2 {
+	font-family: "Engine", serif;
+	font-size: 90px;
+	text-align: center;
+	text-shadow: 1px -1px 1px #040407, 15px -10px 10px #00ff00;
+	margin: 0px 0px 30px 0px;
+}
+.main-body h2:hover::first-letter {
+	color: #ff4500;
+}
+.first-stape {
+}
+.second-1966 {
+	background: url("../img/joker/l_1.jpg") 0 0 / auto no-repeat fixed;
+}
+.comics {
+	background: url("../img/joker/f_3.jpg") -50px 0 / cover no-repeat fixed;
+}
+
+.four-2008 span {
+	font-size: 35px;
+	text-decoration: underline;
+	color: #ff4500;
+}
+.serial {
+	background: url("../img/joker/03.jpg") 250px -210px / auto no-repeat;
+}
+
+.footer-body {
+	border-radius: 30px;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 51%, rgba(0, 212, 255, 0) 100%);
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 30px 0px;
+}
+
+.items-body {
+	font-size: 28px;
+	color: #800080;
+}
+.items-body li {
+	font-family: "Bad Script", serif;
+	min-height: 55px;
+}
+.items span:hover {
+	color: #00ffff;
+	font-family: "beermoney";
+}
+.items:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+
+.items:nth-child(even) {
+	color: #008000;
+}
+
+.items span::before {
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 70px;
+	padding-left: 30px;
+}
+
+.item-1 span::before {
+	background: url("../img/item/01.png") 10px 10px / contain no-repeat;
+}
+
+.item-2 span::before {
+	background: url("../img/item/02.png") 10px 10px / contain no-repeat;
+}
+.item-3 span::before {
+	background: url("../img/item/03.png") 10px 10px / contain no-repeat;
+}
+.item-4 span::before {
+	background: url("../img/item/04.png") 10px 10px / contain no-repeat;
+}
+.item-5 span::before {
+	background: url("../img/item/05.png") 10px 10px / contain no-repeat;
+}
+
+.item-6 span::before {
+	background: url("../img/item/06.png") 10px 10px / contain no-repeat;
+}
+.item-7 span::before {
+	background: url("../img/item/07.png") 10px 10px / contain no-repeat;
+}
+.item-8 span::before {
+	background: url("../img/item/08.png") 10px 10px / contain no-repeat;
+}
+.item-9 span::before {
+	background: url("../img/item/09.png") 10px 10px / contain no-repeat;
+}
+.item-10 span::before {
+	background: url("../img/item/10.png") 10px 10px / contain no-repeat;
+}
+.why {
+	font-family: "YouMurdererBB", serif;
+	max-width: 800px;
+	font-size: 90px;
+	margin: 0 auto;
+	color: #fff;
+
+}
+.items-body {
+	background: url('/img/joker/09.jpg')  right -150px / auto no-repeat;
+}
